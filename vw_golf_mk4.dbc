@@ -29,46 +29,46 @@ BU_: XXX
 
 
 BO_ 1394 ZAS_1: 2 XXX
- SG_ Fehlerspeichereintrag__ZAS_ : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_memory_entry_zas : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ Frei_ZAS_1_3 : 8|7@1+ (1,0) [0|0] "" XXX
  SG_ Frei_ZAS_1_2 : 7|1@1+ (1,0) [0|0] "" XXX
  SG_ Klemme_15_SV : 6|1@1+ (1,0) [0|0] "" XXX
  SG_ Frei_ZAS_1_1 : 5|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_P__Parklichtstellung_ : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_50__Starten_ : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_X__Startvorgang_ : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Current_P_Parking_Light : 4|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_50_Starter : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_X_Startup : 2|1@1+ (1,0) [0|0] "" XXX
  SG_ Klemme_15__Z_ndung_ein_ : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ S_Kontakt__Schl_ssel_steckt_ : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 1336 Wischer_1: 2 XXX
- SG_ Blockierung_Heckwischer_erkannt : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Wischer_1_2 : 12|3@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerspeichereintrag__Wischer_ : 11|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Scheibenwischer_Hec : 10|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Wascher_Heck : 9|1@1+ (1,0) [0|0] "" XXX
- SG_ Scheibenwischer_Heck_eingeschal : 8|1@1+ (1,0) [0|0] "" XXX
+BO_ 1336 Wiper_1: 2 XXX
+ SG_ Blocked_rear_wiper_detected : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Open_wiper_1_2 : 12|3@1+ (1,0) [0|0] "" XXX
+ SG_ Wiper_error_memory_entry : 11|1@1+ (1,0) [0|0] "" XXX
+ SG_ Rear_wiper_control : 10|1@1+ (1,0) [0|0] "" XXX
+ SG_ Rear_washer_control : 9|1@1+ (1,0) [0|0] "" XXX
+ SG_ Rear_wiper_on : 8|1@1+ (1,0) [0|0] "" XXX
  SG_ Blockierung_Frontwischer_erkann : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Wischer_1_1 : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ Status_Waschduesenheizung : 5|1@1+ (1,0) [0|0] "" XXX
- SG_ Parklage_Frontwischer : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Frontwischer_Schnel : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Frontwischer_Normal : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Wascher_Front : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ Frontwischer__eingeschaltet : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ Blocked_front_wiper_detected : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ Heated_washer_status : 5|1@1+ (1,0) [0|0] "" XXX
+ SG_ Front_wiper_position : 4|1@1+ (1,0) [0|0] "" XXX
+ SG_ Front_wiper_fast_speed : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Front_wiper_normal_speed : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Front_washer_control : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ Front_washer_on : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1464 WFS_1: 2 XXX
  SG_ WFS_Textbits : 8|8@1+ (1,0) [0|0] "" XXX
  SG_ Frei_WFS_1_1 : 1|7@1+ (1,0) [0|0] "" XXX
  SG_ WFS_LED : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 1096 Waehlhebel_1: 4 XXX
+BO_ 1096 Gear_selector_module: 4 XXX
  SG_ Frei_Waehlhebel_1_1 : 29|3@1+ (1,0) [0|0] "" XXX
- SG_ Test_aktiv_Flag : 28|1@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_Waehlhebel_1 : 24|4@1+ (1,0) [0|15] "" XXX
- SG_ Waehlhebel_Testergebnis : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ Fehler_Waehlhebel : 8|8@1+ (1,0) [0|0] "" XXX
- SG_ Waehlhebelposition : 4|4@1+ (1,0) [0|0] "" XXX
- SG_ Waehlhebel_Initialisierung : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Test_active_flag : 28|1@1+ (1,0) [0|0] "" XXX
+ SG_ Counter_gear_selector_1 : 24|4@1+ (1,0) [0|15] "" XXX
+ SG_ Gear_lever_test_result : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ Missing_gear_selector : 8|8@1+ (1,0) [0|0] "" XXX
+ SG_ Gear_select_position : 4|4@1+ (1,0) [0|0] "" XXX
+ SG_ Gear_leverl_initialization : 3|1@1+ (1,0) [0|0] "" XXX
  SG_ Shiftlock_Position : 0|3@1+ (1,0) [0|0] "" XXX
 
 BO_ 1496 Verbauliste_1: 8 XXX
@@ -178,7 +178,7 @@ BO_ 1332 Sitz_info: 2 XXX
  SG_ Checksumme_Sitzinfo : 0|8@1+ (1,0) [0|0] "" XXX
 
 BO_ 1810 PSG_3: 2 XXX
- SG_ Selbsttestergebnis : 0|16@1+ (1,0) [0|0] "" XXX
+ SG_ Self_test_result : 0|16@1+ (1,0) [0|0] "" XXX
 
 BO_ 1298 PSG_2: 8 XXX
  SG_ RAM_Inhalt_4 : 48|16@1+ (1,0) [0|0] "" XXX
@@ -189,9 +189,9 @@ BO_ 1298 PSG_2: 8 XXX
 BO_ 274 PSG_1: 8 XXX
  SG_ Pumpentemperatur__2_1_ : 48|16@1+ (0.0625,0) [0|4096] "K" XXX
  SG_ Pumpentemperatur__3_2_2_ : 44|12@1+ (1,0) [0|0] "" XXX
- SG_ Zylinderzaehler__3_2_2_ : 43|3@1+ (1,0) [1|8] "Zaehler" XXX
+ SG_ Cylinder_counter__3_2_2_ : 43|3@1+ (1,0) [1|8] "Zaehler" XXX
  SG_ Ansteuerdauer__3_2_2_ : 32|11@1+ (0.0469,0) [0|96] "NW" XXX
- SG_ Nockenwellendrehzahl__3_2_2_ : 20|12@1+ (4,0) [0|16380] "upm" XXX
+ SG_ Camshaft_speed_3_2_2_ : 20|12@1+ (4,0) [0|16380] "upm" XXX
  SG_ Pumpen_Statuswort__3_2_2_ : 0|20@1+ (1,0) [0|0] "" XXX
 
 BO_ 1300 NOX_1: 8 XXX
@@ -261,7 +261,7 @@ BO_ 1280 MSG_2: 8 XXX
  SG_ Ram_Adresse_1 : 0|16@1+ (1,0) [0|0] "" XXX
 
 BO_ 256 MSG_1: 8 XXX
- SG_ Kurbelwellendrehzahl__3_2_2_ : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Crankshaft_speed_3_2_2_ : 56|8@1+ (1,0) [0|0] "" XXX
  SG_ Soll_Foerderbeginn_KW__3_2_2_ : 40|16@1+ (0.01172,-384) [-384|384] "KW" XXX
  SG_ Soll_Foerderbeginn_NW__3_2_2_ : 28|12@1+ (0.01172,0) [0|768] "degNW" XXX
  SG_ Soll_Voreinspritzung : 16|12@1+ (1,0) [0|0] "" XXX
@@ -302,7 +302,7 @@ BO_ 1408 Motor_Flexia: 8 XXX
 
 BO_ 1416 Motor_7: 8 XXX
  SG_ Frei_Motor_7_3 : 40|24@1+ (1,0) [0|0] "" XXX
- SG_ Ladedruck : 32|8@1+ (0.01,0) [0|2.54] "bar" XXX
+ SG_ TURBO : 32|8@1+ (0.01,0) [0|2.54] "bar" XXX
  SG_ Vorzeichen_Motordrehzahlgradien : 31|1@1+ (1,0) [0|0] "" XXX
  SG_ Motordrehzahlgradient : 24|7@1+ (1,0) [0|126] "U/min" XXX
  SG_ Hoeheninfo__Motor_7_ : 16|8@1+ (0.00787,0) [0|2] "" XXX
@@ -879,13 +879,13 @@ BO_ 672 Bremse_4: 3 XXX
  SG_ ABS_Vorgabewert_mitte_Kupplungs : 0|8@1+ (3,-381) [-381|378] "Nm/min" XXX
 
 BO_ 1184 Bremse_3: 8 XXX
- SG_ Radgeschw__HR_4_1 : 49|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ Rear_right_wheel_speed_4_1 : 49|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ Frei_Bremse_3_4 : 48|1@1+ (1,0) [0|0] "" XXX
- SG_ Radgeschw__HL_4_1 : 33|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ Rear_left_wheel_speed_4_1 : 33|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ Frei_Bremse_3_3 : 32|1@1+ (1,0) [0|0] "" XXX
- SG_ Radgeschw__VR_4_1 : 17|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ Front_right_wheel_speed_4_1 : 17|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ Frei_Bremse_3_2 : 16|1@1+ (0.01,0) [0|325] "km/h" XXX
- SG_ Radgeschw__VL_4_1 : 1|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ Front_left_wheel_speed_4_1 : 1|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ Frei_Bremse_3_1 : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1440 Bremse_2: 8 XXX
@@ -1078,8 +1078,8 @@ BO_ 872 ACC_System: 8 XXX
  SG_ ACS_Typ_ACC : 19|2@1+ (1,0) [0|3] "" XXX
  SG_ ACS_FreigSollB : 23|1@1+ (1,0) [0|1] "" XXX
  SG_ ACS_Sollbeschl : 24|11@1+ (0.005,-7.22) [-7.22|3.005] "Unit_MeterPerSeconSquar" XXX
- SG_ ACS_Anhaltewunsch : 38|1@1+ (1,0) [0|1] "" XXX
- SG_ ACS_Fehler : 39|1@1+ (1,0) [0|1] "" XXX
+ SG_ ACS_Stop_request : 38|1@1+ (1,0) [0|1] "" XXX
+ SG_ ACS_error : 39|1@1+ (1,0) [0|1] "" XXX
  SG_ ACS_zul_Regelabw : 40|8@1+ (1,0.005) [0|1.265] "Unit_MeterPerSeconSquar" XXX
  SG_ ACS_max_AendGrad : 48|8@1+ (1,0.02) [0.02|5.06] "Unit_MeterPerSeconSquar" XXX
 
